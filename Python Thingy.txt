@@ -1,0 +1,12 @@
+ur_dads_birth_year = input("")
+ur_dads_age = 2024 - int(ur_dads_birth_year)
+print("your dad is " + str (ur_dads_age) + " years old!")
+if ur_dads_age > 39:
+  print("ps: he is getting old")
+elif ur_dads_age > 49:
+  print("ps: he is old")
+elif ur_dads_age < 29:
+  print("HUH SO HOW OLD DID HE HAVE YOU AT??")
+  print("so now enter YOUR age")
+
+input("")
